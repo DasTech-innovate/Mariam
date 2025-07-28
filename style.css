@@ -142,6 +142,11 @@ i{
     margin-top: 7rem !important;
     font-family: "Zilla Slab", serif !important;
 }
+/* p {
+  word-wrap: break-word;
+  word-break: break-word;
+} */
+
 #btn-ctn{
     background-color: #fff;
     outline: 3px solid #f39c12;
@@ -164,4 +169,10 @@ i{
   .img-container {
     flex: 1 ; /* 👈 Side-by-side on medium and up */
   }
+}
+@media (min-width: 425px) {
+    #img-custom {
+        margin-right: 7rem;
+        
+    }
 }
