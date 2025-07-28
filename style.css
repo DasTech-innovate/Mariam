@@ -134,9 +134,9 @@ i{
     font-family: "Zilla Slab", serif !important;
     transition: transform 0.3s ease-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    &:hover{
+    /* &:hover{
         transform: scale(1.05);
-    }
+    } */
 }
 #experience{
     margin-top: 7rem !important;
@@ -162,6 +162,13 @@ i{
     background-color: #f39c12;
         color: #fff;
     }
+}
+/* footer */
+#footer-custom{
+   background-color: var(--footer-bg) !important;
+    color: var(--footer-text) !important;
+    padding: 1rem;
+    font-family: "Zilla Slab", serif;
 }
 
 @media (min-width: 768px) {
