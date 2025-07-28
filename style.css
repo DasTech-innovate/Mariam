@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boorder-box;
+}
+:root{
+    --navbar-bg: #f39c12
+    --navbar-text: #ffffff;
+    --navbar-hover-bg: #e67e22;
+    --navbar-hover-text: #ffffff;
+    --navbar-active-bg: #d35400;    
+    --navbar-active-text: #ffffff;
+    --footer-bg: #2c3e50;
+    --body-bg: #e49e61;
+    --footer-text: #bdc3c7;
+}
+ body{
+background-color: var(--body-bg);
+} 
+#navbar-custom{
+    background-color: var(--navbar-hover-bg) !important;
+    color: var(--navbar-text);
+}
+#my-navlist a{
+    margin-left: 1rem ;
+    font-family: "Zilla Slab", serif;
+   font-weight: 700;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+#my-navlist a:hover{
+    color: var(--navbar-hover-text) !important;
+    
+}
+#logo{
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--navbar-text);
+}
+.active{
+    color: var(--navbar-active-text) !important;
+    
+}
+
+    #container-custom { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* ✅ Makes it responsive */
+    width: 100%;
+    /* max-width: 1140px; or 100% if you want it fluid */
+    height: auto;
+    background-color: red;
+    margin-top: 4rem !important;
+    gap: 1rem;
+}
+
+.txt-content,
+.img-container {
+    flex: 1 ; /* 👈 Stack on small screens */
+    min-width: 300px;
+    border: solid 2px;
+}
+.about-txt{
+    font-family: "Zilla Slab", serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    max-width: 520px;
+    
+}
+.ui{
+    color: #f39c12;
+    padding: 1rem;
+    border-radius: 8px;
+}
+#my-custom-col-2 {
+    /* background-color: blue; */
+    margin-top: 9rem;
+    font-family: "Zilla Slab", serif;
+}
+#learn-more-btn{
+    outline: 3px solid #f39c12;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    &:hover{
+        background-color: #f39c12;
+        color: #fff;
+    }
+}
+#img-custom {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 5px #f39c12;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+    margin-left: 4rem;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+i{
+    font-size: 2rem;
+    color: #f39c12;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+#my-skills{
+    margin-top: 7rem !important;
+     font-family: "Zilla Slab", serif !important;
+}
+.skill-txt{
+    max-width: 700px;
+    text-align: center;
+    margin-left: 10rem;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+#form{
+    margin-top: 7rem;
+}
+#contact{
+    margin-top: 7rem !important;
+    font-family: "Zilla Slab", serif !important;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+#experience{
+    margin-top: 7rem !important;
+    font-family: "Zilla Slab", serif !important;
+}
+#btn-ctn{
+    background-color: #fff;
+    outline: 3px solid #f39c12;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    &:hover{
+    background-color: #f39c12;
+        color: #fff;
+    }
+}
+
+@media (min-width: 768px) {
+  .txt-content,
+  .img-container {
+    flex: 1 ; /* 👈 Side-by-side on medium and up */
+  }
+}
