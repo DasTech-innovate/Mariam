@@ -193,7 +193,7 @@ i{
 }
 @media (prefers-color-scheme: light) {
   body, html {
-    background-color: var(--body-bg) !important;
+    background-color: #fff !important;
     color: black !important;
   }
 
@@ -203,8 +203,8 @@ i{
     color: black !important;
   } */
    footer{
-    background-color: var(--footer-bg) !important;
-    color: var(--footer-text) !important;
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
    }
    nav{
     background-color: var(--navbar-bg) !important;
