@@ -215,7 +215,7 @@ i{
 }
 @media (prefers-color-scheme: dark) {
   body, html {
-    background-color: white !important;
+    background-color: var(--body-bg) !important;
     color: black !important;
   }
 
