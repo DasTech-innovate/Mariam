@@ -16,7 +16,12 @@
 }
  body{
 background-color: var(--body-bg);
-} 
+width: 100vw !important;
+max-width: 100vw !important ;
+overflow-x: hidden  !important;
+}
+
+
 #navbar-custom{
     background-color: var(--navbar-hover-bg) !important;
     color: var(--navbar-text);
@@ -190,10 +195,10 @@ i{
   }
 
   /* Example: Fixing Navbar and Text */
-  .navbar, .skill-txt, h2, p {
+  /* .navbar, .skill-txt, h2, p {
     background-color: white !important;
     color: black !important;
-  }
+  } */
    footer{
     background-color: var(--footer-bg) !important;
     color: var(--footer-text) !important;
