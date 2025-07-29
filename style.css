@@ -191,6 +191,28 @@ i{
         
     }
 }
+@media (prefers-color-scheme: light) {
+  body, html {
+    background-color: var(--body-bg) !important;
+    color: black !important;
+  }
+
+  /* Example: Fixing Navbar and Text */
+  /* .navbar, .skill-txt, h2, p {
+    background-color: var(--body-bg) !important;
+    color: black !important;
+  } */
+   footer{
+    background-color: var(--footer-bg) !important;
+    color: var(--footer-text) !important;
+   }
+   nav{
+    background-color: var(--navbar-bg) !important;
+    color: var(--navbar-text) !important;
+   }
+  /* Fix icons or custom components if needed */
+
+}
 @media (prefers-color-scheme: dark) {
   body, html {
     background-color: white !important;
